@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MindTune - About</title>
+    <link rel="icon" href="mindtune.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo-text {
+            font-size: 1.5em;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        nav .logo-icon {
+            margin: 0 10px;
+            color: #ff69b4; /* Pastel pink color for icons */
+        }
+        nav .links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            position: relative;
+        }
+        nav .links a::before {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            height: 4px;
+            background-color: #ff69b4; /* Pastel pink color for hover effect */
+            width: 0%;
+            transition: 0.3s ease;
+        }
+        nav .links a:hover::before {
+            width: 100%;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            max-width: 1000px;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            max-height: none;
+            overflow-y: auto;
+        }
+        .content h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 20px;
+            border-bottom: 2px solid #ff69b4; /* Pastel pink color */
+            padding-bottom: 10px;
+        }
+        .content p, .content ul {
+            color: #555;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        .content ul {
+            padding-left: 20px;
+        }
+        .content li {
+            margin-bottom: 10px;
+        }
+        .content strong {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo" data-aos="fade-right">
+                <span class="logo-text">MindTune 
+                    <i class="fas fa-brain logo-icon"></i>
+                    <i class="fas fa-music logo-icon"></i>
+                </span>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="features.html">Features</a>
+                <a href="symptoms.html">Symptoms</a>
+                <a href="app.html">App</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="content" data-aos="fade-up">
+            <h1>About MindTune</h1>
+            <p>MindTune is a modern app that helps people boost their focus, concentration, and mental health. It combines proven methods and advanced technology to help users enter and maintain a state of flow for longer periods.</p>
+            <h2>How MindTune Works</h2>
+            <p>Our app offers various features to help users overcome brain fog, distractions, and other challenges that affect focus and productivity. These features include:</p>
+            <ul>
+                <li><strong>Musify:</strong> Our app uses binaural beats and music to help users achieve deep relaxation and focus. Binaural beats occur when two slightly different frequencies are played in each ear, creating a third frequency that helps induce a meditative state.</li>
+                <li><strong>Meditating:</strong> We provide a library of guided meditations to help users reduce stress, improve focus, and enhance overall mental health. These meditations are led by experienced instructors and are suitable for all experience levels.</li>
+                <li><strong>Heads Up!:</strong> Our focus timer helps users stay on task for longer periods. It can be set to 25-minute intervals with short breaks in between to maintain focus and prevent burnout.</li>
+                <li><strong>Mind Exercises:</strong> We offer various mindfulness exercises to help users become more aware of their thoughts, feelings, and sensations in the present moment. These exercises help reduce stress, improve focus, and enhance overall well-being.</li>
+            </ul>
+            <h2>Who Can Benefit from MindTune</h2>
+            <p>MindTune is easy to use and accessible for people of all ages and experience levels. Whether you're a student dealing with brain fog or a busy professional looking to improve focus and productivity, MindTune can help.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        delay: 100   
+      });
+    </script>
+</body>
+</html>

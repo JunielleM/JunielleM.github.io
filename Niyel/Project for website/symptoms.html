@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>MindTune - Techniques</title>
+    <link rel="icon" href="mindtune.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo-text {
+            font-size: 1.5em;
+            color: #333;
+            display: flex;
+            align-items: center;
+        }
+        nav .logo-icon {
+            margin: 0 10px;
+            color: #ff69b4; /* Pastel pink color for icons */
+        }
+        nav .links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            position: relative;
+        }
+        nav .links a::before {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            height: 4px;
+            background-color: #ff69b4; /* Pastel pink color for hover effect */
+            width: 0%;
+            transition: 0.3s ease;
+        }
+        nav .links a:hover::before {
+            width: 100%;
+        }
+        section {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .content {
+            max-width: 1000px;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            max-height: none;
+            overflow-y: auto;
+        }
+        .content h1 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 20px;
+            border-bottom: 2px solid #ff69b4; /* Pastel pink color */
+            padding-bottom: 10px;
+        }
+        .content p, .content ul {
+            color: #555;
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        .content ul {
+            padding-left: 20px;
+        }
+        .content li {
+            margin-bottom: 10px;
+        }
+        .content strong {
+            color: #333;
+        }
+        .feature-box {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 2px solid #ff69b4; /* Pastel pink color for border */
+            border-radius: 10px;
+        }
+        .highlighted {
+            font-size: 1.2em;
+            color: #fff;
+            font-weight: bold;
+            background-color: #f56fa7;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo" data-aos="fade-right">
+                <span class="logo-text">MindTune 
+                    <i class="fas fa-brain logo-icon"></i>
+                    <i class="fas fa-music logo-icon"></i>
+                </span>
+            </div>
+            <div class="links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="features.html">Features</a>
+                <a href="symptoms.html">Symptoms</a>
+                <a href="app.html">App</a>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <div class="content">
+            <h1 style="font-size: 2em;">What are the symptoms?</h1>
+            <p class="highlighted">Symptoms</p>
+            <div class="feature-box">
+                <h2>Scrambled Words</h2>
+                <p>Words may be jumbled or out of order. It can affect communication and understanding.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Anomic aphasia</h2>
+                <p>Trouble recalling words or names.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Trouble focusing and understanding</h2>
+                <p>Difficulty in maintaining attention and comprehending information. This can impact daily activities, learning, and work performance.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Trouble recalling information</h2>
+                <p>Problems with memory retention and retrieval, which can affect learning and the ability to remember personal experiences or facts.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Spacing out</h2>
+                <p>Frequent episodes of losing awareness of the present moment, often as a coping mechanism for stress or due to fatigue.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Losing track of time</h2>
+                <p>Difficulty in perceiving and managing time, leading to missed appointments, deadlines, or time management issues.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Lack of decision making</h2>
+                <p>Inability or difficulty in making choices, often due to overthinking, anxiety, or lack of confidence.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Difficulty solving problems</h2>
+                <p>Struggling with analytical thinking and finding solutions to problems.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Headaches</h2>
+                <p>Physical symptom often associated with stress, tension, or other underlying health issues.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Overwhelmed</h2>
+                <p>Feeling excessively burdened by tasks, responsibilities, or emotional stress.</p>
+            </div>
+            <div class="feature-box">
+                <h2>Procrastinating</h2>
+                <p>Delaying or avoiding tasks, often leading to stress and decreased productivity.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        delay: 100   
+      });
+    </script>
+</body>
+</html>
